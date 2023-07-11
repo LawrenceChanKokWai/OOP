@@ -9,6 +9,8 @@ public:
     Admin();
 
     void DisplayAdmin();
+
+    virtual bool isAdmin() = 0;
 };
 
 #endif //OOP_ADMIN_H

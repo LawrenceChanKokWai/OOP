@@ -8,6 +8,8 @@ public:
     Customer();
 
     void DisplayCustomer();
+
+    virtual bool isCustomer() = 0;
 };
 
 #endif //OOP_CUSTOMER_H

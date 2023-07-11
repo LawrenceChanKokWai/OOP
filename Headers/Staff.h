@@ -8,6 +8,8 @@ public:
     Staff();
 
     void DisplayStaff();
+
+    virtual bool isStaff() = 0;
 };
 
 #endif //OOP_STAFF_H

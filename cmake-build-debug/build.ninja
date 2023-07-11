@@ -85,6 +85,12 @@ build CMakeFiles/OOP.dir/Includes/Staff.cpp.o: CXX_COMPILER__OOP_Debug /Users/ch
   OBJECT_DIR = CMakeFiles/OOP.dir
   OBJECT_FILE_DIR = CMakeFiles/OOP.dir/Includes
 
+build CMakeFiles/OOP.dir/Includes/SuperAdmin.cpp.o: CXX_COMPILER__OOP_Debug /Users/chankokwai/Documents/OOP/Includes/SuperAdmin.cpp || cmake_object_order_depends_target_OOP
+  DEP_FILE = CMakeFiles/OOP.dir/Includes/SuperAdmin.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++11
+  OBJECT_DIR = CMakeFiles/OOP.dir
+  OBJECT_FILE_DIR = CMakeFiles/OOP.dir/Includes
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target OOP
@@ -93,7 +99,7 @@ build CMakeFiles/OOP.dir/Includes/Staff.cpp.o: CXX_COMPILER__OOP_Debug /Users/ch
 #############################################
 # Link the executable OOP
 
-build OOP: CXX_EXECUTABLE_LINKER__OOP_Debug CMakeFiles/OOP.dir/main.cpp.o CMakeFiles/OOP.dir/Includes/Person.cpp.o CMakeFiles/OOP.dir/Includes/User.cpp.o CMakeFiles/OOP.dir/Includes/Admin.cpp.o CMakeFiles/OOP.dir/Includes/Customer.cpp.o CMakeFiles/OOP.dir/Includes/Staff.cpp.o
+build OOP: CXX_EXECUTABLE_LINKER__OOP_Debug CMakeFiles/OOP.dir/main.cpp.o CMakeFiles/OOP.dir/Includes/Person.cpp.o CMakeFiles/OOP.dir/Includes/User.cpp.o CMakeFiles/OOP.dir/Includes/Admin.cpp.o CMakeFiles/OOP.dir/Includes/Customer.cpp.o CMakeFiles/OOP.dir/Includes/Staff.cpp.o CMakeFiles/OOP.dir/Includes/SuperAdmin.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/OOP.dir
   POST_BUILD = :
