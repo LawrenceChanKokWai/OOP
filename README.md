@@ -26,4 +26,3 @@ Benefits of OOP:
 - User class with 3 child class namely Admin, Customer, Staff.
 - After so, we shall make a interface class with the 3 child class.
 
-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
