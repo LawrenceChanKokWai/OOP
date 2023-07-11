@@ -1,7 +1,7 @@
 #include "../Headers/User.h"
 
 User::User() {
-    std::cout << this << " --> User: CREATED" << std::endl;
+    std::cout << this << " Person --> User: CREATED" << std::endl;
 }
 
 void User::DisplayUser() {

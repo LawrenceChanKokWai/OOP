@@ -11,11 +11,11 @@ int main() {
 
     std::cout << "\n";
 
-    myAdmin.DisplayPerson();
-    myAdmin.DisplayUser();
-    myAdmin.DisplayAdmin();
-    myCustomer.DisplayCustomer();
-    myStaff.DisplayStaff();
+//    myAdmin.DisplayPerson();
+//    myAdmin.DisplayUser();
+//    myAdmin.DisplayAdmin();
+//    myCustomer.DisplayCustomer();
+//    myStaff.DisplayStaff();
 
     return 0;
 }

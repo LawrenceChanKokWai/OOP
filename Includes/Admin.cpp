@@ -1,7 +1,7 @@
 #include "../Headers/Admin.h"
 
 Admin::Admin() {
-    std::cout << this << " --> Admin: CREATED" << std::endl;
+    std::cout << this << " Person --> User --> Admin: CREATED" << std::endl;
 }
 
 void Admin::DisplayAdmin() {

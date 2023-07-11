@@ -1,7 +1,7 @@
 #include "../Headers/Staff.h"
 
 Staff::Staff() {
-    std::cout << this << "--> Staff: --> CREATED" << std::endl;
+    std::cout << this << " Person --> User --> Staff: CREATED" << std::endl;
 }
 
 void Staff::DisplayStaff() {

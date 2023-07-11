@@ -2,7 +2,7 @@
 #include "../Headers/Customer.h"
 
 Customer::Customer() {
-    std::cout << this << "--> Customer: CREATED" << std::endl;
+    std::cout << this << " Person --> User --> Customer: CREATED" << std::endl;
 }
 
 void Customer::DisplayCustomer() {
