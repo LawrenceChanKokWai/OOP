@@ -10,7 +10,7 @@ public:
 
     void DisplayAdmin();
 
-    virtual bool isAdmin() = 0;
+    void role();
 };
 
 #endif //OOP_ADMIN_H

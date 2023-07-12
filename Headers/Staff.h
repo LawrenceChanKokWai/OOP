@@ -9,7 +9,7 @@ public:
 
     void DisplayStaff();
 
-    virtual bool isStaff() = 0;
+    void role();
 };
 
 #endif //OOP_STAFF_H

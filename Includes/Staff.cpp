@@ -7,3 +7,7 @@ Staff::Staff() {
 void Staff::DisplayStaff() {
     std::cout << "Method from Staff" << std::endl;
 }
+
+void Staff::role() {
+    std::cout << this << " Staff: [READ, WRITE]" << std::endl;
+}

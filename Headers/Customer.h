@@ -9,7 +9,7 @@ public:
 
     void DisplayCustomer();
 
-    virtual bool isCustomer() = 0;
+    void role();
 };
 
 #endif //OOP_CUSTOMER_H

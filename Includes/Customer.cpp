@@ -8,3 +8,7 @@ Customer::Customer() {
 void Customer::DisplayCustomer() {
     std::cout << "Method from Customer" <<std::endl;
 }
+
+void Customer::role() {
+    std::cout << this << " Customer: [READ]" << std::endl;
+}
